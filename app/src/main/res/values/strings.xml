@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">JarAssignment</string>
+    <string name="item_details_for_id">Item Details for ID: %1$s</string>
+    <string name="harddisksize">HardDiskSize: %1$s</string>
+    <string name="cpumodel">CPUModel: %1$s</string>
+    <string name="generation">Generation: %1$s</string>
+    <string name="description">Description: %1$s</string>
+    <string name="screensize">Screensize: %1$s</string>
+    <string name="price">Price: %1$s</string>
+    <string name="capacitygb">CapacityGB: %1$s</string>
+    <string name="capacity">Capacity: %1$s</string>
+    <string name="color">Color: %1$s</string>
 </resources>

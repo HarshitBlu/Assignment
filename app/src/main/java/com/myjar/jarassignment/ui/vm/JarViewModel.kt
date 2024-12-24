@@ -52,7 +52,7 @@ class JarViewModel : ViewModel() {
             }
         }.onEach {
             _isSearching.value = false
-        }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), _listStringData.value)
+        }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(3000), _listStringData.value)
 
     fun fetchData() {
         viewModelScope.launch {
